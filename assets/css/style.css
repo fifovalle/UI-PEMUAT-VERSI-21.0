@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #0f0e17;
+  background: #0f0e17;
 }
 
 .pemuat {
@@ -31,6 +31,7 @@ body {
   margin-left: 3px;
   animation: berkedip 1.5s infinite;
 }
+
 .titik:nth-child(2) {
   animation-delay: 0.3s;
 }
@@ -40,16 +41,15 @@ body {
 }
 
 .latar-belakang-pemuat {
-  --height: 30px;
   display: flex;
   align-items: center;
   box-sizing: border-box;
   padding: 5px;
   width: 200px;
-  height: var(--height);
-  background-color: #212121 /*change this*/;
+  height: 30px;
+  background-color: #212121;
   box-shadow: #0c0c0c -2px 2px 4px 0px inset;
-  border-radius: calc(var(--height) / 2);
+  border-radius: calc(30px / 2);
 }
 
 .bar-pemuat {
@@ -57,9 +57,8 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  --height: 20px;
+  height: 20px;
   width: 0%;
-  height: var(--height);
   overflow: hidden;
   background: rgb(222, 74, 15);
   background: linear-gradient(
@@ -67,7 +66,7 @@ body {
     rgba(222, 74, 15, 1) 0%,
     rgba(249, 199, 79, 1) 100%
   );
-  border-radius: calc(var(--height) / 2);
+  border-radius: calc(20px / 2);
   animation: pemuat 4s ease-out infinite;
 }
 
@@ -93,11 +92,13 @@ body {
 
 @keyframes pemuat {
   0% {
-    width: 0;
+    width: 0%;
   }
+
   80% {
     width: 100%;
   }
+
   100% {
     width: 100%;
   }
@@ -108,6 +109,7 @@ body {
   100% {
     opacity: 0;
   }
+
   50% {
     opacity: 1;
   }
