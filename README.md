@@ -1,4 +1,4 @@
-**Selamat Datang di "UI Pemuat Versi 20.0" User Interface! 🚀**
+**Selamat Datang di "UI Pemuat Versi 21.0" User Interface! 🚀**
 
 Jelajahi karya terbaru dan keterampilan saya dalam dunia pengembangan perangkat lunak. Dari aplikasi web hingga proyek mobile, temukan ragam proyek yang mencerminkan dedikasi saya dalam teknologi.
 
@@ -9,7 +9,7 @@ Jelajahi karya terbaru dan keterampilan saya dalam dunia pengembangan perangkat 
 
 ### 🚀 Fitur Utama
 
-- **User Interface:** Pemuat Versi 20.0
+- **User Interface:** Pemuat Versi 21.0
 
 ## 🛠️ Teknologi yang Digunakan
 
@@ -20,7 +20,7 @@ Jelajahi karya terbaru dan keterampilan saya dalam dunia pengembangan perangkat 
 
 Berikut adalah beberapa tampilan halaman website :
 
-![proyek85](https://github.com/user-attachments/assets/270a708f-1465-4e34-a893-897a9c0fb578)
+![proyek86](https://github.com/user-attachments/assets/ec54e86c-e5ea-47b2-b5d7-8a2645efafff)
 
 ## 📬 Kontak
 
@@ -35,7 +35,7 @@ Kontribusi dan umpan balik dari komunitas sangat dihargai. Jika Anda ingin berko
 1. Clone repositori ini ke direktori web server Anda.
 
    ```
-   git clone https://github.com/fifovalle/UI-PEMUAT-VERSI-20.0.git
+   git clone https://github.com/fifovalle/UI-PEMUAT-VERSI-21.0.git
 
    ```
 
